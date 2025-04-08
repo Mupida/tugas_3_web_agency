@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Design Agency</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding: 40px;
+            background-color: #fefefc;
+        }
+
+        header .logo {
+            color: orange;
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+        }
+
+        main h1 {
+            font-size: 3rem;
+            font-weight: bold;
+            margin-bottom: 40px;
+        }
+
+        .highlight {
+            color: #2b2bc7;
+        }
+
+        .content {
+            display: flex;
+            gap: 30px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .box {
+            width:700px;
+            display: flex;
+        }
+
+        .box img {
+            width: 100%;
+            border-radius: 4px;
+            margin-bottom: 10px;
+        }
+
+        .box h3 {
+            font-size: 16.8 px;
+            margin-bottom: 10px;
+        }
+
+        .box p {
+            font-size: 14px;
+            line-height: 1.5;
+            color: #333;
+        }
+
+        footer {
+            text-align: center;
+            padding-top: 30px;
+            font-weight: bold;
+            color: #555;
+        }
+        .w-50{
+            width: 50%;
+        }
+
+        .caption{
+            padding: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h3 class="logo">dev.com</h3>
+    </header>
+
+    <main>
+        <h1>We are a <span class="highlight">Creative</span><br>Design Agency</h1>
+
+        <section class="content">
+            <div class="box">
+                <div class="w-50">
+                    <img src="beauty.jpg.jpg" alt="beauty image">
+                </div>
+                <div class="w-50 caption">
+                    <h3>Beauty</h3>
+                    <p>We strive to create the most beautiful websites for all your needs. Working closely with you to design and develop an amazing website for your business.</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="w-50">
+                    <img src="construction.jpg.jpg" alt="Construction Image">
+                </div>
+                <div class="w-50 caption">
+                    <h3>Construction</h3>
+                    <p>Built by our team of professional developers, we ensure the most rigorous and modern websites. Built from scratch using HTML and CSS. Only the best for you.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer> Create. Mupida develop. </footer>
+</body>
+</html>
